@@ -78,9 +78,6 @@ div#div3{
     color: white;
     padding: 50px;
 }
-#horizontal ul li a:hover{
+#vertical ul li a:hover{
     background-color: rgb(100,100,100);
-}
-.active{
-    background-color: rgb(65, 65, 65);
 }
