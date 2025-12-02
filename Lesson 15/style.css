@@ -41,3 +41,46 @@ div#div3{
     left: 100px;
     background-color: blue;
 }
+#horizontal ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+#horizontal ul li{
+    float: left;
+}
+#horizontal ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+#horizontal ul li a:hover{
+    background-color: rgb(100,100,100);
+}
+.active{
+    background-color: rgb(65, 65, 65);
+}
+#vertical ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+#vertical ul li{
+    padding: 20px;
+    margin: 35px;
+}
+#vertical ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+#horizontal ul li a:hover{
+    background-color: rgb(100,100,100);
+}
+.active{
+    background-color: rgb(65, 65, 65);
+}
