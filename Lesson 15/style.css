@@ -1,14 +1,16 @@
-body{
+body {
     height: 10000px;
 }
-div#div1{
+
+div#div1 {
     position: static;
     width: 250px;
     height: 250px;
     padding: 20px;
     border: 3px solid black;
 }
-div#div2{
+
+div#div2 {
     position: relative;
     width: 250px;
     height: 250px;
@@ -17,7 +19,8 @@ div#div2{
     left: 1000px;
     top: 100px
 }
-div#div3{
+
+div#div3 {
     position: fixed;
     width: 250px;
     height: 250px;
@@ -26,14 +29,16 @@ div#div3{
     left: 1000px;
     top: 100px
 }
-#parent{
+
+#parent {
     position: relative;
     width: 250px;
     height: 250px;
     padding: 20px;
     border: 3px solid black;
 }
-#child{
+
+#child {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -41,43 +46,52 @@ div#div3{
     left: 100px;
     background-color: blue;
 }
-#horizontal ul{
+
+#horizontal ul {
     list-style-type: none;
     background-color: black;
     margin-bottom: 100px;
     overflow: hidden;
     padding: 20px;
 }
-#horizontal ul li{
+
+#horizontal ul li {
     float: left;
 }
-#horizontal ul li a{
+
+#horizontal ul li a {
     text-decoration: none;
     color: white;
     padding: 50px;
 }
-#horizontal ul li a:hover{
-    background-color: rgb(100,100,100);
+
+#horizontal ul li a:hover {
+    background-color: rgb(100, 100, 100);
 }
-.active{
+
+.active {
     background-color: rgb(65, 65, 65);
 }
-#vertical ul{
+
+#vertical ul {
     list-style-type: none;
     background-color: black;
     margin-bottom: 100px;
     overflow: hidden;
     padding: 20px;
 }
-#vertical ul li{
+
+#vertical ul li {
     padding: 20px;
     margin: 35px;
 }
-#vertical ul li a{
+
+#vertical ul li a {
     text-decoration: none;
     color: white;
     padding: 50px;
 }
-#vertical ul li a:hover{
-    background-color: rgb(100,100,100);
+
+#vertical ul li a:hover {
+    background-color: rgb(100, 100, 100);
 }
