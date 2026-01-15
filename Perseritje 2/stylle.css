@@ -1,15 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #0b1220;
-    color: #e9eefc;
-    height: 200vh;
+    color: #bccdfa;
+    height: 150vh;
     width: 100%;
     padding: 0;
     margin: 0;
 }
-
 nav{
-    background-color: rgb(66, 170, 250);
+    background-color: #8dbaff;
     position: fixed;
     height: 100%;
     width: 7%;
@@ -18,8 +17,72 @@ nav{
 nav img{
     width: 100px;
     height: 95px;
+    margin-left: 15px;
 }
 
 nav ul{
-    list-style-type: circle;
+    list-style-type: none;
+    margin-top: 250px;
+}
+
+nav ul li{
+    margin-top: 50px;
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero-banner{
+    float: right;
+    width: 93%;
+    height: fit-content;
+}
+
+.hero-banner img{
+    width: 100%;
+}
+
+.hero-banner h1{
+    text-align: center;
+    font-size: 50px;
+}
+.products-gallery{
+    float: right;
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.product{
+    width: fit-content;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: aliceblue;
+}
+
+.product p{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.product h5{
+    color: black;
+}
+
+.product button{
+    width:  150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    font-weight: bolder;
 }
