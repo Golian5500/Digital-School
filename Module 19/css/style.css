@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    background-color: rgb(201, 230, 255);
+}
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.container div:nth-child(1){
+    order: 2;
+    flex-grow: 2;
+
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container div:nth-child(3){
+    order: 0;
+}
+.container div:nth-child(4){
+    order: 1;
+}
+.container2{
+    display: flex;
+    background-color: rgb(201, 230, 255);
+    flex-direction: column;
+}
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.container3{
+    display: flex;
+    background-color: rgb(0, 86, 161);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.container4{
+    display: flex;
+    background-color: rgb(0, 86, 161);
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 200px;
+}
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+.container4 div:nth-child(2){
+    align-self: flex-end;
+}
