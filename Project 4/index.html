@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="webpage_title">Gmail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+</head>
+
+<body>
+    <div class="left-side">
+        <div class="logo">
+            <a href="/#inbox" class="menu-icon" draggable="false">
+                <svg focusable="false" viewBox="0 0 24 24" class="three-lines">
+                    <path shape-rendering="optimizeQuality" fill="rgb(75,75,75)"
+                        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+            </a>
+            <a href="index.html" aria-label="Gmail" class="gmail-logo" draggable="false">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="compose-button-container">
+            <button class="compose-button">
+                <div class="image">
+                    <img src="images/pen.png" alt="pen">
+                </div>
+                <p>Compose</p>
+            </button>
+        </div>
+        <div class="choices-options-for-location">
+            <a href="#inbox" class="inbox-option option" draggable="false">
+                <div class="image">
+                    <img src="images/inbox_empty.png" alt="inbox">
+                </div>
+                <p>Inbox</p>
+            </a>
+            <a href="#starred" class="starred-option option" draggable="false">
+                <div class="image">
+                    <img src="images/starred_empty.png" alt="starred">
+                </div>
+                <p>Starred</p>
+            </a>
+            <a href="#snoozed" class="snoozed-option option" draggable="false">
+                <div class="image">
+                    <img src="images/snoozed_empty.png" alt="snoozed">
+                </div>
+                <p>Snoozed</p>
+            </a>
+            <a href="#sent" class="sent-option option" draggable="false">
+                <div class="image">
+                    <img src="images/sent_empty.png" alt="sent">
+                </div>
+                <p>Sent</p>
+            </a>
+            <a href="#drafts" class="drafts-option option" draggable="false">
+                <div class="image">
+                    <img src="images/drafts_empty.png" alt="drafts">
+                </div>
+                <p>Drafts</p>
+            </a>
+            <a href="#purchase" class="purchase-option option" draggable="false">
+                <div class="image">
+                    <img src="images/purchase_empty.png" alt="purchase">
+                </div>
+                <p>Purchases</p>
+            </a>
+            <a href="" id="expand_more_option" class="expand_more option" draggable="false">
+                <div class="image">
+                    <img src="images/expand_empty.png" alt="expand_more">
+                </div>
+                <p>More</p>
+            </a>
+            <div class="dropdown-container">
+                <div class="dropdown-container-menu">
+                    <a href="#important" class="important-option option" draggable="false">
+                        <div class="image">
+                            <img src="images/important_empty.png" alt="important">
+                        </div>
+                        <p>Important</p>
+                    </a>
+                    <a href="#scheduled" class="scheduled-option option" draggable="false">
+                        <div class="image">
+                            <img src="images/scheduled_empty.png" alt="scheduled">
+                        </div>
+                        <p>Scheduled</p>
+                    </a>
+                    <a href="#allmail" class="allmail-option option" draggable="false">
+                        <div class="image">
+                            <img src="images/allmail_empty.png" alt="allmail">
+                        </div>
+                        <p>All Mail</p>
+                    </a>
+                    <a href="#spam" class="spam-option option" draggable="false">
+                        <div class="image">
+                            <img src="images/spam_empty.png" alt="spam">
+                        </div>
+                        <p>Spam</p>
+                    </a>
+                    <a href="#bin" class="bin-option option" draggable="false">
+                        <div class="image">
+                            <img src="images/bin_empty.png" alt="bin">
+                        </div>
+                        <p>Bin</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="labels-container">
+            <div class="labels-container-header">
+                <h4>Labels</h4>
+                <img class="label-add" src="images/plus.png" alt="add labels">
+            </div>
+            <div class="labels-options">
+                <a href="#label" class="label-option option" draggable="false">
+                    <div class="image">
+                        <img src="images/label.png" alt="label">
+                    </div>
+                    <p>Label</p>
+                </a>
+            </div>
+        </div>
+        <div class="left-side-upgrade-button">
+            <div class="left-side-upgrade-container">
+                <a href="https://one.google.com/dynamic-plans?g1_landing_page=75"
+                    class="left-side-upgrade-button-anchor" target="_blank">
+                    <img src="https://www.gstatic.com/subscriptions/no_cleanup/gmail_lhn_icon_468fb3e91953c34a349664185ab06b12.svg"
+                        alt="1">
+                    <p>Upgrade</p>
+                    <svg viewBox="0 -960 960 960" height="24" width="24" focusable="false" class=" aoH aoG">
+                        <path d="M647-440H160v-80H647L423-744l57-56L800-480L480-160l-57-56L647-440Z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="header">
+            <div class="left-side-right-side">
+                <div class="searchbar">
+                    <div class="search-button">
+
+                    </div>
+                    <div class="search-text">
+                        Search
+                    </div>
+                    <div class="manage-search-options">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side-right-side">
+
+            </div>
+        </div>
+        <div class="center-container">
+            <div class="center-container-header">
+
+            </div>
+            <div class="center-container-group-selection">
+
+            </div>
+        </div>
+        <div class="email-check-surface">
+
+        </div>
+        <div class="footer">
+            <div class="left-side-right-side-footer">
+
+            </div>
+            <div class="center-side-right-side-footer">
+
+            </div>
+            <div class="right-side-right-side-footer">
+
+            </div>
+        </div>
+    </div>
+    <div class="graying-background"></div>
+    <div class="create-new-label-container">
+        <div class="create-label-header">
+            <p>New label</p>
+        </div>
+        <div class="create-new-label-subcontainer">
+            <div class="first-new-label-label">
+                <p>Please enter a new label name:</p>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="second-new-label-label">
+                <div class="row-one-of-second-new-label-label">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <p>Nest label under:</p>
+                </div>
+                <div class="row-two-of-second-new-label-label">
+                    <input list="options" name="label-choice-options" /></label>
+                    <datalist id="options">
+                        <option value="Please select from a parent...">
+                        <option value="[Imap]/Important">
+                    </datalist>
+                </div>
+            </div>
+            <div class="create-label-footer">
+                <button class="cancel-add-new-label">Cancel</button>
+                <button class="create-add-new-label">Create</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
