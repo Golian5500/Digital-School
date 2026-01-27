@@ -1,11 +1,13 @@
-body{
-    background-color: rgba(136, 73, 136, 0.973);
+body {
+    background-color: rgba(135, 80, 156);
     width: 100%;
     height: 100vh;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -14,27 +16,32 @@ body{
     align-items: center;
     margin-top: 30px;
 }
-.header-left-side{
+
+.header-left-side {
     display: flex;
     width: 50%;
     justify-content: center;
 }
-.header-left-side img{
+
+.header-left-side img {
     margin-right: 200px;
 }
-.header-right-side{
+
+.header-right-side {
     display: flex;
     width: 50%;
     justify-content: flex-start;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: white;
     margin-right: 30px;
@@ -44,17 +51,19 @@ body{
     border: 0px;
     border-radius: 5px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgba(136, 73, 136, 0.973)
 }
-.navbar a.active{
+
+.navbar a.active {
     background-color: rgba(119, 64, 119, 0.973);
 }
-.home{
+
+.home {
     height: 500px;
     width: 100%;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -63,11 +72,11 @@ body{
     text-align: center;
 }
 
-.home h1{
+.home h1 {
     font-size: 40px;
 }
 
-.home button{
+.home button {
     margin-top: 20px;
     width: 300px;
     height: 55px;
@@ -79,4 +88,147 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    background-color: rgba(23, 194, 164);
+    padding: 0 0 100px 0;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.service-text-header {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.small-line {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-text-text {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.service-squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+.service img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.service h3,
+.service p {
+    color: white;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    background-color: rgba(60, 84, 153);
+    padding: 0 0 100px 0;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    width: 100%;
+    height: 500px;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-top input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(39, 58, 113);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+}
+
+form button {
+    width: 300px;
+    height: 65px;
+    border: none;
+    background-color: rgba(48, 186, 231);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(39, 58, 113);
 }
